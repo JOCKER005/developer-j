@@ -1,0 +1,99 @@
+HABITOS - PRACTICA - LOGICA
+
+CLASES DE APOYO 1HS ANTES DE LA CURSADA
+APK:  CLASROOM  -  SLACK - BUMERAN
+
+BATERIA INICIO: 62% a 40% -  INTERNET: 5.05GB - 500mb ocupados
+WHATSSAP DEL DIRECTOR(CONSULTAS FUERA DE PROFESORES Y ADMINISTRACION): 1131710075
+
+MOD_1_DISEÑO:
+- INTRODUCCION HTML : LENGUAJE DE MARCADO, QUE ESTRUCTURA DATOS. CONJUNTOS DE PAGINAS ES UN SITIO WEB(HTML ESTRUCTURA PRINCIPAL), es un sistema de etiquetas o codigos, no es lenguaje por que no tiene funciones de interaccion, los h1,2,3,4 sirven para jerarquizar.
+- HTML5 y css3 centrada en responsive(simulacion en distintos dispositivos) adaptacion del sitio
+- pixel: unidad de medida, minima.
+- ESTRUCTURA 
+    <header/> parte superior no visible 
+        google analitic es importante para un sitio por que mide la interaccion del mismo y las visitas (!--global)
+        <title/> titulo que aparece en el motor de busqueda
+    <body/> 
+    <!--footer --> pie de pagina 
+    <html/>
+-los H sirven para posicionamiento hay 250 posicionamientos distintos
+- Etiquetas (organizan el texto)
+- jerarquia 1 titulos 2 negritas 3 cursiva
+- Arbol de jerarquias= estructura y facilidad para leer el codigo
+#span sirve como un div pequeño, nos da el control de del espcaio que ocupados
+
+22/09 tercer CLASES
+imagenes web son imagenes comprimidas en un 30% reduce el peso es crucial
+
+**Formularios**
+    -De Contacto (a base de inputs) post
+    -De Busqueda (incluido en la url) get
+
+                        CSS
+    INTRODUCE PERSONALIZACION 
+    VERSION ACTUAL CSS3 - 1999              
+    type tipo de archivo y css la relacions
+
+** CSS **
+ display:flex hace que los div se dividan en columnas (armar columnas-coexisten de forma vertical)
+ laburar en porcentaje
+ posicionamiento statico (no aplicar ningun valor)
+ posicionamiento relativo (aplicando propiedades)
+ postition: fixed 'elemento fijo no se movera'
+ sticky nos sigue cuando nos desplazamos por la pagina ej el menu de ayuda
+ cajas (%) texto (px)
+ el unico elemento que admite valores negativos es el margin...!!
+ inline-flex  permite un  elemento al lado de un elemento ej, alado mismo de un div de titulo..!
+*display: inline-flex (para armar una galeria con imagenes una alado de otra)
+flex -flexbox nos permite poner un ddiv alado del otro, seria como columnas
+flex-direction: row-reverse; ubica las columnas a la derecha
+el flex va para el div contenedor de otros entonces los subdis son los que se acomodan en columnas 
+el div padre va con display inline-flex y con porcentajes
+los flex tienen muchas propiedades que las podemos cambiar desde el inspector de codigo del google
+LA ALTURA DEBERIA SER AUTO PARA QUE NO SE DESPROPORCIONEN
+css para que las columnas se acomoden hacia abajo
+GITHUB
+*** git y github son cosas distintas
+Git es tecnologia y github un servicio.
+Control de versiones, que sucede en el proyecto, la evolucion
+Git nos permite como developers versionar lo que hacemos, tener la posibilidad de trabajar de manera colaborativa
+    GIT ES ESCENCIAL
+github almacena codigo, herramienta
+git es una tecnologia, instala una secuencia de comandos en la terminal.
+*  DESCARGAR GIT BASH, PARA WINDOWS Y EL GIT  
+*REPOSITORIO UN ALMACEN DONDE SE ALMACENAN LAS COSAS EN ESTE CASO ARCHIVOS
+GIT REP LOCAL DE MI PC Y GITHUB REP REMOTO 
+GIT INIT (COMANDO PARA INICIALIZAR UN PROYECTO LOCAL) X CARPETA 1 SOLO SE permite
+*Stage git: untracked - tracked - commited
+* untracked y tracket(archivos a los cual git les hace seguimineto y no )
+ - Archivos creaados (untracked)
+ - Archivos
+comando GIT STATUS (COMANDO QUE MAS UTILIZAREMOS )
+COMANDO PARA AGREGAR ARCHIVO EN GIT (GIT ADD FILE_NAME)
+-GIT INIT - GIT ADD file.html- GIT rm  --cached FILE_NAME
+- git add -A (agregar todo los archivos)
+comando para ignorar archivos, crear archivo de configuracion .gitignore (dentro de este archivo colocamos tal cual los archivos a ignorar o carpetas)
+- gitignore se debe agregar tal cual a git add
+- los archivos modificados deben volverse a agregar 
+tracker , modific y unmodified
+-quiero que ignores todo archivo que comience con .txt o con a (*.txt o *a)
+-LETRAS A DE AGREGADO, M DE MODIFICADO Y U DE UNTRACKED (ARCHIVO NUEVO)
+- proceso para firmar mi trabajo y para colocar mis credenciales 
+        | git config user.name name..
+        | git config user.email correo_electronico..
+- COMMIT (ME COMPROMETO A QUE EL CODIGO TERMINADO MIO SEA PARTE DEL PROYECTO)
+COMANDO git commit -m "mensaje de que hiciste" 
+#has id univoco ()
+git remote add origin(es un alias) url_repositorio_remoto 
+git remote -v ( alias y url sirve para comprobar si ya esta el repositorio remoto con el local )
+git push origin(alias que le hayamos puesto) main(o como se llame la rama) - lleva al repositorio remoto todos los cambios al repo remotorermoto osea google al local pc)
+push para subir las cosas al github 
+git pull origin msin (baja cosas de el repositoggit rio )
+convinacion de teclas para abrir la barra de code 
+abrir tablas con tr y td 
+RESPONSIVE 
+ Es la parte del codigo que se basa en el ajuste de la pagina para los dispositivos
+ acorde la pantalla del movil iria un ajustte de porcentaje u otro que varia directamente con los pixeles de la pantalla, en particular los iphone tienen menos pixeles y una pantalla ma fina.
+     
+pregunta,:: como hago para que cuando yo coloque un hover otros elementos ajenos puedan relacionarse y hacer algo distinto, seria como en un media cuari ? 

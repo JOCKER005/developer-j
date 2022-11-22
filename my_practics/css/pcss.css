@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: blueviolet;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+
+}
+.flex_madre{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+.flex{
+    color: rgb(145, 255, 0);
+    margin:2%;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color:rgb(112, 172, 0);
+    display: inline-flex;
+    padding-left: 5%;
+    text-align: center;
+}
+.flex:hover {
+    background-color: rgb(201, 201, 43);
+    color: black ;
+}
+a:hover{
+    color: black;
+}
+footer{
+    background-image: url(/imgs/hack_1.jpeg);
+    padding: 2%;
+    color: rgb(122, 145, 124);    
+}
+.foter{
+    text-align: center;
+}
+.fot2{
+    display: inline-flex;
+    padding-left: 3%;
+}
+.header_div{
+    text-align: center;
+}
+footer:hover{
+    background-image: url(/imgs/hack_2.jpeg);
+}
+.fot2:hover{
+    color:tomato
+}

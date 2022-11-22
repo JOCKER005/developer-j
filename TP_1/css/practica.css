@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 89, 255, 0.952);
+}
+footer{
+    padding: 3%;
+    text-align: center;
+    color: rgb(78, 146, 146);
+    border: solid 2px rgb(55, 56, 55);
+    background-image: url(/imgs/hack_1.jpeg),url(/imgs/hack_2.jpeg);
+    background-size: 50%, 20%;
+    background-repeat: no-repeat, repeat;
+    background-position-x: center, left;
+    background-position-y: center, 0 ;
+    
+}
+p{
+    line-height: 120%;
+    text-indent: 40px;
+    color: rgb(143, 151, 143);
+}
+h1{
+    color: beige;
+    text-align: center;
+    padding: 8%;  
+}
+h2{
+    color: rgb(76, 212, 83);
+}
+img{
+    padding-left: 5%;
+    padding-bottom: 2%;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+textarea{
+    background-color: rgb(8, 68, 70);
+}
+label{
+    background-color: rgb(79, 82, 77);
+}
+input{
+    background-color:crimson;
+}
+button{
+    color:chartreuse;
+    background-color: black;
+    padding: 1%;
+    margin-left: 4%;
+    border-radius: 25%;
+    
+}
+.titulo1{
+    color:rgb(109, 10, 167);
+}
+.parrafo1{ 
+    padding-top: 80px;
+
+}
+.nav2{
+    color: chartreuse;
+    padding-left: 90px;
+    font-size: 200%;
+}
+.divh{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+.botton_contacto{
+    padding: 30px;
+}
+.nave{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.div_ul{
+    display:inline-flex;
+    
+}
+.a_fotter {
+    color:rgb(211, 197, 197)  ;
+    text-decoration:underline;
+}
+#fb{
+    padding-left: 270%;
+}
+#ig{
+    padding-left: 530%;
+    color: rgb(141, 30, 82);
+}
+#wap{
+    padding-left: 1280%;
+    color: rgb(0, 212, 46);
+}
+#first_div{
+    background-image: url(/imgs/hack_2.jpeg);
+    background-size: 24%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}    
+#id1{
+    padding-left: 12%;
+}
+#id2{
+    padding-left: 16.5%;
+}
+#id3{
+    padding-left: 16.5%;
+}
