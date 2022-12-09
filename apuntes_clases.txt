@@ -97,3 +97,21 @@ RESPONSIVE
  acorde la pantalla del movil iria un ajustte de porcentaje u otro que varia directamente con los pixeles de la pantalla, en particular los iphone tienen menos pixeles y una pantalla ma fina.
      
 pregunta,:: como hago para que cuando yo coloque un hover otros elementos ajenos puedan relacionarse y hacer algo distinto, seria como en un media cuari ? 
+
+EXPRESS INSTALAR
+    nmp install express --save (--save opcional)
+    npm i express  //es lo mismo 
+    npm init para empezar de 0 y config express o 
+    npm init -y para config x default
+para requerir express
+    CONST EXPRESS = ('EXPRESS');
+    CONST APP = EXPRESS();
+ yarn (añade paquetes)
+yarn   yarn.lock === package.json
+
+//expres y ENTORNO MVC 
+ modelo (servidor) la cara de la paagina - vista(cliente) 
+ a los 3 LOS REGULA EL CONTROLADOR - conecta peticiones 
+ 
+ nodemon  y NPM I -G nodemon
+ 

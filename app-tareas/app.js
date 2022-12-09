@@ -21,9 +21,21 @@ function loop (get){
             console.log("  - " + element.estado);
         }); //confirmado
     } else if (get === undefined) {
-        console.log("Atencion - Tenes que pasar una Accion/Key");
+        console.log("Atencion - Tenes que pasar una Accion/Key\n");
+    } else if ( get === 'crear' ){
+        console.log('Logeado en CREAR');
+        if (process.argv[3] === undefined ) {
+            console.log("\nNo has pasado ninguna tarea para agregar. \nDeberias colocar la tarea entre ' ', luego de la palabra crear.\n")
+        } else{
+            let addJson = {titulo : process.argv[3], estado: "Pendiente"};
+            console.log("La Tarea : '" + process.argv[3] + "'\nse ha añadido con exito\n y se encuentraa PENDIENTE\n" )
+            adquisicion.push(addJson);
+            let jsonProducts = JSON.stringify(adquisicion);
+            fs.writeFileSync(rutaJson, jsonProducts, null, 2);
+            // console.log(adquisicion); prueba exitosa
+        } 
     } else {
-        console.log("No entiendo que quieres hacer - La Accion disponible es listar ");
+        console.log("No entiendo que quieres hacer - Las Acciones disponibles son listar y crear\n ");
     }
 }
 
